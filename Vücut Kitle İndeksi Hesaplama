@@ -1,0 +1,15 @@
+def vki():
+  agirlik=float(input("Kilonuzu Giriniz"))
+  boy=float(input("Boyunuzu Giriniz"))
+  endeks=agirlik/pow(boy,2)   
+  if endeks < 18.5:
+    sonuc="Düşük Kilolu"
+  elif endeks < 25:
+    sonuc="Normal Kilolu"  
+  elif endeks< 30:
+    sonuc="Fazla Kilolu"
+  elif endeks<40 :
+    sonuc="Obez"
+  elif endeks>=40:
+    sonuc="Asiri obez"
+  print(sonuc, "VKİ Sonucunuz",endeks)
