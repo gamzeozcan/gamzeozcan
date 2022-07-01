@@ -1,0 +1,5 @@
+def kaldırmakuvveti(Vbatan,dsıvı):
+  kk=Vbatan*dsıvı
+  print(kk)
+  
+  kaldırmakuvveti(2,6)
